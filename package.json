@@ -1,0 +1,25 @@
+{
+  "name": "herokudeploymenttesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "node": "^17.7.2",
+    "react": "^18.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyMellon/HerokuDeploymentTesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyMellon/HerokuDeploymentTesting/issues"
+  },
+  "homepage": "https://github.com/AnthonyMellon/HerokuDeploymentTesting#readme"
+}
