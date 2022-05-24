@@ -1,0 +1,50 @@
+Assignment Manager
+    User
+        First Name (text)
+        Last Name (text)
+        Classes (text/other collection / multiple)
+        Date of Birth (date)
+        Gender (text)
+
+    Assignnment
+        Title (text)
+        Description (text)
+        Class (text)
+        Issue date (date)
+        Due date (date)
+        Extension length (int)
+        Extension given (bool)
+        Documents (text/other collection / multiple)
+        Resources (text/other collection / multiple) 
+        todos (text/ other collection / multiple)   
+
+    Class
+        Title (text)
+        Description (text)
+        Course Directive (text/ other file)
+        Lecturers (text / other collection / multiple)
+        Assignments (text / other collection / multiple)        
+
+    Lecturer
+        First Name (text)
+        Last Name (text)
+        Email (text)
+        Office (text)
+        Classes (text / other collection / multiple)        
+
+    Resources (web reosurces relevant to the assignment)
+        Title (text)
+        Description (text)
+        Relevant Assignments (text / other collection / multiple)
+        URL (text)
+
+    Documents (documents Relevant to assignment, suchs as rubric etc)
+        Title (text)
+        Description (text)
+        Assignment (text / other collection)
+        File (file)
+
+    ToDO (what needs to be done for the assignment)
+        Title (Text)
+        Description (Text)
+        done (bool)

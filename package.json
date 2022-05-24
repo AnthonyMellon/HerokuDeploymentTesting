@@ -1,25 +1,49 @@
 {
-  "name": "herokudeploymenttesting",
+  "name": "intro-app-dev-2022-project-1-node-js-rest-api-anthonymellon",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "js-tokens": "^4.0.0",
-    "loose-envify": "^1.4.0",
-    "node": "^17.7.2",
-    "react": "^18.1.0"
-  },
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "users:create": "node db/usersSeeder",
+    "users:delete": "node db/usersSeeder -d",
+    "assignments:create": "node db/assignmentsSeeder",
+    "assignments:delete": "node db/assignmentsSeeder -d",
+    "classes:create": "node db/classesSeeder",
+    "classes:delete": "node db/classesSeeder -d",
+    "documents:create": "node db/documentsSeeder",
+    "documents:delete": "node db/documentsSeeder -d",
+    "lecturers:create": "node db/lecturersSeeder",
+    "lecturers:delete": "node db/lecturersSeeder -d",
+    "resources:create": "node db/resourcesSeeder",
+    "resources:delete": "node db/resourcesSeeder",
+    "todos:create": "node db/todoSeeder",
+    "todos:delete": "node db/todoSeeder -d"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnthonyMellon/HerokuDeploymentTesting.git"
+    "url": "git+https://github.com/otago-polytechnic-bit-courses/intro-app-dev-2022-project-1-node-js-rest-api-AnthonyMellon.git"
   },
-  "author": "",
+  "author": "Anthony",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnthonyMellon/HerokuDeploymentTesting/issues"
+    "url": "https://github.com/otago-polytechnic-bit-courses/intro-app-dev-2022-project-1-node-js-rest-api-AnthonyMellon/issues"
   },
-  "homepage": "https://github.com/AnthonyMellon/HerokuDeploymentTesting#readme"
+  "homepage": "https://github.com/otago-polytechnic-bit-courses/intro-app-dev-2022-project-1-node-js-rest-api-AnthonyMellon#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "8.x"
+  }
 }
